@@ -1,0 +1,636 @@
+<!doctype html>
+<html>
+    <head><link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Get by Gadgets</title>
+    </head>
+<style>
+    .mySlides {display:none;}
+</style>
+<body>
+    <header>
+    <div class="w3-container w3-pink w3-border-bottom">
+        <p class="w3-serif w3-button w3-right">| Please Select Your Location</p>
+        <p class="w3-serif w3-right w3-button">| Track Order</p>
+        <p class="w3-serif w3-right w3-button">| Stores Locater</p>
+        <p class="w3-serif w3-right w3-button">| Contact us</p>
+        <p class="w3-serif w3-right w3-button">| 0011203045</p>
+        <p class="w3-serif w3-right w3-button">| Service App</p>
+    </div>
+    <div class="w3-container w3-black w3-padding" style="position:sticky;top:0;z-index:100">
+        <div class="w3-content w3-quarter"> 
+        <img src="images/techI.png" alt="get by gadgets" style="width:70%">
+        </div>
+            
+                <div class="w3-content w3-half">
+                    <form action="/action_page.php">
+                        <input type="search" class="w3-input" placeholder="Search for a product, category or brand" name="search"style="width:80%" >
+                        <!--<button style="font-size:16px"><i class="fa fa-search"></i></button>-->
+                    </form>
+                    
+                </div>
+                <div class="w3-content w3-quarter">
+                    <img src="images/vs.png" class="w3-content" alt="VS+" style="width:20%">
+                    <img src="images/mycard.png" class="w3-content" alt="my vs card" style="width:20%">
+                    <button class="w3-button w3-border w3-border-white"> Sign in</button>
+                    <img src="images/cart.png" class="w3-content" alt="cart" style="width:20%">
+                </div>
+            
+    <div class="w3-display-container">
+        <div style="font-size: 9px;">
+            <a href="washingmachine.html" class="w3-button"><strong>WASHING MACHINE</strong></a>
+            <a href="television.html" class="w3-button"><strong>TELEVISION</strong></a>
+            <a href="t&m.html" class="w3-button"><strong>MOBILE & TABLETS</strong></a>
+            <a href="l&p.html" class="w3-button"><strong>LAPTOP & PRINTER</strong></a>
+            <a href="tv&et.html" class="w3-button"><strong>TV & ENTERTAINMENT</strong></a>
+            <a href="hp.html" class="w3-button"><strong>HOME APPLIANCES</strong></a>
+            <a href="pc.html" class="w3-button"><strong>PERSONAL CARE</strong></a>
+            <a href="camera.html" class="w3-button"><strong>CAMERA</strong></a>
+            <a href="bg.html" class="w3-button"><strong>BUYING GUIDES</strong></a>
+            <a href="acc.html" class="w3-button"><strong>ACCESSORIES</strong></a>
+            <a href="#" class="w3-button"><strong>BRAND STORES</strong></a>
+        </div>
+    </div>
+    </div>
+    <div class="w3-content w3-display-container"></div>
+        <div class="w3-display-container mySlides">
+            <img src="images/ps5.jpg" style="width:100%" height="500">
+        </div>
+      
+        <div class="w3-display-container mySlides">
+            <img src="images/tvs.webp" style="width:100%" height="500">
+        </div>
+      
+        <div class="w3-display-container mySlides">
+         <img src="images/watch.webp" style="width:100%" height="500">
+        </div>
+        <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+        <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+    </div>
+    <div class="w3-container w3-sticky w3-white">
+        <div class="w3-center" style="font-size: 15px;">
+            <a href="PC.html" class="w3-button " style="padding-left:100px;padding-right:100px"><strong>PLAY STATION 5</strong></a>
+            <a href="television.html" class="w3-button"  style="padding-left:100px;padding-right:100px"><strong>TELEVISION</strong></a>
+            <a href="t&m.html" class="w3-button"  style="padding-left:100px;padding-right:100px"><strong>WATCH</strong></a>
+        </div>
+          <script>
+            var slideIndex = 1;
+            showDivs(slideIndex);
+            
+            function plusDivs(n) {
+              showDivs(slideIndex += n);
+            }
+            
+            function currentDiv(n) {
+              showDivs(slideIndex = n);
+            }
+            
+            function showDivs(n) {
+              var i;
+              var x = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("demo");
+              if (n > x.length) {slideIndex = 1}    
+              if (n < 1) {slideIndex = x.length}
+              for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+              }
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-red", "");
+              }
+              x[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " w3-red";
+            }
+            </script>
+            <div class="w3-row">
+                <div class="w3-quarter w3-container w3-center w3-hover-shadow">
+                    <img src="images/dd1.webp" alt="Washing Machine" width="320" height="270">
+                   
+                </div>
+                <div class="w3-quarter w3-container  w3-center w3-hover-shadow">
+                    <img src="images/dd2.webp" alt="Washing Machine" width="320" height="270">
+                  
+                </div>
+                <div class="w3-quarter w3-container w3-center w3-hover-shadow">
+                    <img src="images/dd3.webp" alt="Washing Machine" width="320" height="270">
+                   
+                </div>
+                <div class="w3-quarter w3-container w3-center w3-hover-shadow">
+                    <img src="images/dd4.webp" alt="Washing Machine" width="320" height="270">
+                   
+                </div>
+            </div>
+            <div class="w3-display-container w3-hover-shadow">
+                <img src="images/t&l.jpg" alt="Buying Guides" width="1500" height="185">
+            </div>
+           
+                <div class="w3-container w3-row">
+                    <h2 style="float:left"> =====  DEALS YOU CAN`T MISS!</h2>
+                    <p class="w3-button w3-red w3-right">VIEW ALL</p>
+                </div>
+                <div class="w3-container">
+                    <div class="w3-quarter w3-center  w3-hover-shadow">
+                        <div>
+                            <img src="images/dm1.jpg" alt="Alps" title="Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity & Fitness tracking, Blood pressure and ECG (Black)">
+                            <div class="w3-container">
+                            <p><b>Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹ 11,999</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/dm2.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Samsung Galaxy Watch 4 Classic 42mm (3.04 cm) SM-R880NZSAINU Bluetooth with...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹11,999</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/dm3.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Amazon Fire TV Stick (3rd Gen, 2021) with all-new Alexa Voice Remote (includes TV...</b></p>
+                            <p class="w3-text-red">Offer Price
+                                ₹2,199</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/dm4.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Amazon Fire TV Stick Lite 2022 with all-new Alexa Voice Remote Lite, HD streaming...</b></p>
+                            <p class="w3-text-red">Offer Price
+                                ₹1,799</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-row">
+                    <h2 style="float:left"> =====  LEVEL UP YOUR GAMING STATION</h2>
+                    <p class="w3-button w3-red w3-right">VIEW ALL</p>
+                </div>
+                <div class="w3-container">
+                    <div class="w3-quarter w3-center  w3-hover-shadow">
+                        <div>
+                            <img src="images/ls.jpg" alt="Alps" title="Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity & Fitness tracking, Blood pressure and ECG (Black)">
+                            <div class="w3-container">
+                            <p><b>Sony PS5 Standard Marvel Spiderman 2 Limited Edition...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹ 62,990</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/ls1.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Sony Dual Sense Wireless Controller for PlayStation 5 (Red)...</b></p>
+                            <p class="w3-text-red">Offer Price
+                                ₹5,999</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/ls2.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Sony PlayStation 5 Console Call of Duty Modern Warfare II Bundle...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹54,590</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/ls3.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Sony PS4 Game Software God Of War Ragnarok Standard Edition...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹3,899</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-row">
+                    <h2 style="float:left"> =====  WASH YOUR STAINS AWAY</h2>
+                    <p class="w3-button w3-red w3-right">VIEW ALL</p>
+                </div>
+                <div class="w3-container">
+                    <div class="w3-quarter w3-center  w3-hover-shadow">
+                        <div>
+                            <img src="images/wa1.jpg" alt="Alps" title="Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity & Fitness tracking, Blood pressure and ECG (Black)">
+                            <div class="w3-container">
+                            <p><b>LG 7 Kg 5 Star Top Loading Fully Automatic Inverter Washing Machine | TurboDrum |</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹19,490</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/wa2.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>IFB Laundrimagic 8.5 Kg | 6.5 Kg | 2.5 Kg 5 Star Inverter 3-in-1 Washer Dryer Refresher....</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹59,990</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/wa3.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>LG 7.5 KG 5 Star Top Loading Fully Automatic Smart Inverter Washing Machine with Turbo....</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹18,390</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/wa4.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Samsung 7 Kg Fully Automatic Top Load Washing Machine with Ecobubble™, Digital...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹19,500</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-row">
+                    <h2 style="float:left"> =====  NEW AT VIJAY SALES</h2>
+                    <p class="w3-button w3-red w3-right">VIEW ALL</p>
+                </div>
+                <div class="w3-container">
+                    <div class="w3-quarter w3-center  w3-hover-shadow">
+                        <div>
+                            <img src="images/ns1.jpg" alt="Alps" title="Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity & Fitness tracking, Blood pressure and ECG (Black)">
+                            <div class="w3-container">
+                            <p><b>ASUS VivoBook 15 Laptop 2023(12th Gen Core i7 1255U /16GB RAM/ 512GB SSD/ 15...</b></p>
+                            <p class="w3-text-red">Offer Price
+                                ₹60,990</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/ns2.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Sony PS5 Standard Marvel Spiderman 2 Limited Edition...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹ 62,990</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/ns3.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>GoPro HERO12 Black Waterproof Action Camera with 5.3K60 Ultra HD Video, 27MP....</b></p>
+                            <p class="w3-text-red">MRP
+                                ₹45,000</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/ns4.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>boAt Smart Ring Gen 1 (Size 9) with 5ATM Water Resistance....</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹8,999</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-row">
+                    <h2 style="float:left"> =====  BEST SELLING LAPTOPSVIEW ALL</h2>
+                    <p class="w3-button w3-red w3-right">VIEW ALL</p>
+                </div>
+                <div class="w3-container">
+                    <div class="w3-quarter w3-center  w3-hover-shadow">
+                        <div>
+                            <img src="images/bl1.jpg" alt="Alps" title="Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity & Fitness tracking, Blood pressure and ECG (Black)">
+                            <div class="w3-container">
+                            <p><b>Apple MacBook Air M1 chip Laptop 8GB RAM, 256GB SSD 13.3-inch/33.74 cm Retin...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹80,990</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/bl2.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Dell Inspiron 3511 Thin and Light Laptop (11th Gen core i3 / 8GB/ 512GB SSD/ 15.6...</b></p>
+                            <p class="w3-text-red">Offer Price
+                                ₹37,999</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/bl3.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Apple MacBook Pro 13 M2 chip MNEH3HN/A Laptop (8GB RAM/256 GB SSD/13.3-inch (33.74 cm) Display/8-....</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹1,18,199</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/bl4.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>HP 14s Laptop (Intel Celeron N4500 Processor / 8 GB/ 512 GB SSD/ 14 inch (35.....</b></p>
+                            <p class="w3-text-red">Offer Price
+                                ₹26,990</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="w3-container w3-row">
+                    <h2 style="float:left"> =====  TUNE INTO PERFECTION</h2>
+                    <p class="w3-button w3-red w3-right">VIEW ALL</p>
+                </div>
+                <div class="w3-container">
+                    <div class="w3-quarter w3-center  w3-hover-shadow">
+                        <div>
+                            <img src="images/tp1.jpg" alt="Alps" title="Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity & Fitness tracking, Blood pressure and ECG (Black)">
+                            <div class="w3-container">
+                            <p><b>boAt Nirvana Ion Bluetooth Wireless Earbuds with Crystal Bionic Sound powered by HiFi...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹1,999</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/tp2.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Apple AirPods Pro (2nd Generation) with MagSafe Charging Case...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹24,900</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/tp3.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>boAt Airdopes 163 Earbuds with Massive Playback of Up To 17 Hour, IPX5 Water & ....</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹1,349</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/tp4.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>OnePlus Nord Buds 2 with Active Noise Cancellation, 12.4mm dynamic drive, IP55.....</b></p>
+                            <p class="w3-text-red">Offer Price
+                                ₹2,499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-row">
+                    <h2 style="float:left"> =====  WIDE RANGE OF SMARTPHONES</h2>
+                    <p class="w3-button w3-red w3-right">VIEW ALL</p>
+                </div>
+                <div class="w3-container">
+                    <div class="w3-quarter w3-center  w3-hover-shadow">
+                        <div>
+                            <img src="images/vr1.jpg" alt="Alps" title="Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity & Fitness tracking, Blood pressure and ECG (Black)">
+                            <div class="w3-container">
+                            <p><b>Apple iPhone 14 (128 GB Storage, Starlight)...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹65,990</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/vr2.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>OnePlus Nord CE 2 Lite 5G (6 GB RAM, 128 GB ROM, Blue Tide)...</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹17,999</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/vr3.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Oppo A78 (8 GB RAM, 128 GB ROM, Glowing Black)....</b></p>
+                            <p class="w3-text-red">VSP
+                                ₹18,999</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/vr4.jpg" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Redmi 12C (6 GB RAM, 128 GB ROM, Lavender Purple).....</b></p>
+                            <p class="w3-text-red">Offer Price
+                                ₹9,499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container w3-row">
+                    <h2 style="float:left"> =====  SHOP BY BRANDS</h2>
+                    <p class="w3-button w3-red w3-right">VIEW ALL</p>
+                </div>
+
+
+                <div class="w3-container">
+                    <div class="w3-quarter w3-center  w3-hover-shadow">
+                        <div>
+                            <img src="images/sb1.png" alt="Alps" title="Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity & Fitness tracking, Blood pressure and ECG (Black)">
+                            
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/sb2.png" alt="Alps">
+                           
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/sb3.jpeg" alt="Alps">
+                            
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/sb4.jpg" alt="Alps">
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="w3-container">
+                    <div class="w3-quarter w3-center  w3-hover-shadow">
+                        <div>
+                            <img src="images/sb5.png" alt="Alps" title="Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity & Fitness tracking, Blood pressure and ECG (Black)">
+                            
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/sb6.png" alt="Alps">
+                           
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/sb7.png" alt="Alps">
+                            
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/sb8.png" alt="Alps">
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="w3-container">
+                    <div class="w3-quarter w3-center  w3-hover-shadow">
+                        <div>
+                            <img src="images/sb9.png" alt="Alps" title="Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity & Fitness tracking, Blood pressure and ECG (Black)">
+                            
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/sb10.jpg" alt="Alps">
+                           
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/sb11.jpg" alt="Alps">
+                            
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-hover-shadow">
+                        <div>
+                            <img src="images/sb12.jpg" alt="Alps">
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="w3-container">
+                    <div class="w3-quarter w3-center  w3-border">
+                        <div>
+                            <img src="images/fp.png" alt="Alps" title="Samsung Galaxy Watch4 Classic Bluetooth (46mm) with IP68 Rating, Daily Activity & Fitness tracking, Blood pressure and ECG (Black)">
+                            <div class="w3-container">
+                            <p><b>Free Shipping</b></p>
+                            <p Class="w3-size-1px">Available on all our products</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-border">
+                        <div>
+                            <img src="images/fp1.png" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Safe Delivery</b></p>
+                            <p>Safe delivery at your doorstep</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-border">
+                        <div>
+                            <img src="images/fp2.png" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Easy Installment</b></p>
+                            <p>Pay for your purchase in easy EMIs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w3-quarter w3-center w3-border">
+                        <div>
+                            <img src="images/fp3.png" alt="Alps">
+                            <div class="w3-container">
+                            <p><b>Enquiry</b></p>
+                            <p>Got a question? Look no further Call Us</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+
+</header>
+<footer class="w3-black">
+    
+  
+  <h1 align="center"><font size="4">DONT'T MISS OUT</h1></font>
+  <p align="center"><font size="6">Sign up and receive 10% off your first full prices order</p></font>
+  <p align="center"><font size="4">Get the first look at our new arrivals, collaborations, sales and more</p></font>
+  <p align="center"><font size="4">EMAIL ADDRESS <u><b>ambiencemakers@gmail.com </b></u></p></font>
+  <p align="center"><font size="4">By subscribing to our newsletter you agree to our terms of services.</p></font>
+  <p align="center"><font size="4">We'll manage information about you as described in our privacy policy.</p></font>
+</div>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<div class=" w3-container"  style="background-color:#d3d3d300;">
+<div class="w3-row">
+  <div class="w3-quarter w3-padding"> 
+    <img src="images/techI.png"style="height:85px;width:265px;">
+  </div>
+  <div class="w3-quarter w3-padding">
+    <h2><font size="4">INFORMATION <i class="fa fa-info-circle"></i></h2></font>
+    <p><font size="3">ABOUT US</p>
+	<p>FAQ</p>
+	<p>PRIVACY POLICY</p>
+	<p>SHIPPING AND RETURNS</p>
+	<p>TERMS AND CONDITIONS</p>
+	<p>TERMS OF SERVICE</p>
+	<p>REFUND POLICY</p></font>
+  </div>
+  <div class="w3-quarter w3-padding">
+    <h2><font size="4">LOCATED STORE		<i class="fa fa-map-marker"></i></h2>
+    <p><font size="3">EMPORIA,NEW DELHI</font></p>
+	<p><font size="3">MALL OF INDIA,NODIA</p>
+	<p><font size="3">AMBIENCE MALL,ROHINI</p>
+	<p><font size="3">VEGAS MALL,DWARKA</p></font>
+  </div>
+  <div class="w3-quarter w3-padding">
+    <h2><font size="4">GET IN TOUCH  <i class="fa fa-phone   ">   <i class="fa fa-envelope"></i></i></h2></font>
+    <p><font size="3">+91 98661 25899</p>
+	<p>shop@ambiencemakers.in</p>
+	<p>Monday-Saturday</p>
+	<p>10:00am-6:00pm</p></font>
+    <a href="#" class="w3-button w3-round-xxlarge"><strong><i class="fa fa-telegram" aria-hidden="true"></i></strong></a>
+    <a href="#" class="w3-button w3-round-xxlarge"><strong><i class="fa fa-instagram" aria-hidden="true"></i></strong></a>
+    <a href="#" class="w3-button w3-round-xxlarge"><strong><i class="fa-brands fa-discord" aria-hidden="true"></i></strong></a>
+    <a href="#" class="w3-button w3-round-xxlarge"><strong><i class="fa fa-twitter" aria-hidden="true"></i></strong></a>
+    <a href="#" class="w3-button w3-round-xxlarge"><strong><i class="fa fa-whatsapp" aria-hidden="true"></i></strong></a>
+    <a href="#" class="w3-button w3-round-xxlarge"><strong><i class="fa fa-linkedin" aria-hidden="true"></i></strong></a>
+  </div>
+</div>
+</div>
+</footer>
+
+
+</body>
+</html>
